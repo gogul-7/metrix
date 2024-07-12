@@ -1,0 +1,226 @@
+{
+  "customers": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "email": "john.doe@example.com",
+      "phone": "123-456-7890",
+      "address": "123 Main St",
+      "city": "Anytown",
+      "state": "CA",
+      "zip": "12345",
+      "joinDate": "2023-01-15"
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "email": "jane.smith@example.com",
+      "phone": "987-654-3210",
+      "address": "456 Elm St",
+      "city": "Othertown",
+      "state": "TX",
+      "zip": "67890",
+      "joinDate": "2023-02-20"
+    },
+    {
+      "id": 3,
+      "name": "Robert Brown",
+      "email": "robert.brown@example.com",
+      "phone": "456-789-1230",
+      "address": "789 Oak St",
+      "city": "Sometown",
+      "state": "FL",
+      "zip": "23456",
+      "joinDate": "2023-03-10"
+    },
+    {
+      "id": 4,
+      "name": "Emily Davis",
+      "email": "emily.davis@example.com",
+      "phone": "321-654-9870",
+      "address": "321 Pine St",
+      "city": "Anothertown",
+      "state": "NY",
+      "zip": "34567",
+      "joinDate": "2023-04-05"
+    },
+    {
+      "id": 5,
+      "name": "Michael Wilson",
+      "email": "michael.wilson@example.com",
+      "phone": "654-321-0987",
+      "address": "654 Cedar St",
+      "city": "Thiscity",
+      "state": "WA",
+      "zip": "45678",
+      "joinDate": "2023-05-12"
+    },
+    {
+      "id": 6,
+      "name": "Sarah Johnson",
+      "email": "sarah.johnson@example.com",
+      "phone": "789-123-4560",
+      "address": "987 Birch St",
+      "city": "Thatcity",
+      "state": "OR",
+      "zip": "56789",
+      "joinDate": "2023-06-15"
+    },
+    {
+      "id": 7,
+      "name": "David Lee",
+      "email": "david.lee@example.com",
+      "phone": "123-789-4560",
+      "address": "123 Spruce St",
+      "city": "Anycity",
+      "state": "NV",
+      "zip": "67890",
+      "joinDate": "2023-07-01"
+    },
+    {
+      "id": 8,
+      "name": "Laura Martinez",
+      "email": "laura.martinez@example.com",
+      "phone": "456-123-7890",
+      "address": "456 Redwood St",
+      "city": "Somecity",
+      "state": "AZ",
+      "zip": "78901",
+      "joinDate": "2023-07-08"
+    },
+    {
+      "id": 9,
+      "name": "James Anderson",
+      "email": "james.anderson@example.com",
+      "phone": "789-456-1230",
+      "address": "789 Maple St",
+      "city": "Yourcity",
+      "state": "CO",
+      "zip": "89012",
+      "joinDate": "2023-07-10"
+    },
+    {
+      "id": 10,
+      "name": "Patricia Thomas",
+      "email": "patricia.thomas@example.com",
+      "phone": "123-987-6540",
+      "address": "321 Aspen St",
+      "city": "Mycity",
+      "state": "IL",
+      "zip": "90123",
+      "joinDate": "2023-07-12"
+    }
+  ],
+  "orders": [
+    {
+      "orderId": 101,
+      "customerName": "John Doe",
+      "product": "iPhone 13",
+      "quantity": 1,
+      "price": 799,
+      "status": "Completed",
+      "orderDate": "2023-06-01"
+    },
+    {
+      "orderId": 102,
+      "customerName": "Jane Smith",
+      "product": "iPhone 13 Pro",
+      "quantity": 2,
+      "price": 999,
+      "status": "Pending",
+      "orderDate": "2023-06-03"
+    },
+    {
+      "orderId": 103,
+      "customerName": "Robert Brown",
+      "product": "iPhone 13 Mini",
+      "quantity": 1,
+      "price": 699,
+      "status": "Completed",
+      "orderDate": "2023-06-05"
+    },
+    {
+      "orderId": 104,
+      "customerName": "Emily Davis",
+      "product": "iPhone 13 Pro Max",
+      "quantity": 1,
+      "price": 1099,
+      "status": "Pending",
+      "orderDate": "2023-06-10"
+    },
+    {
+      "orderId": 105,
+      "customerName": "Michael Wilson",
+      "product": "iPhone 13",
+      "quantity": 3,
+      "price": 2397,
+      "status": "Completed",
+      "orderDate": "2023-06-12"
+    },
+    {
+      "orderId": 106,
+      "customerName": "Sarah Johnson",
+      "product": "iPhone 13 Mini",
+      "quantity": 2,
+      "price": 1398,
+      "status": "Pending",
+      "orderDate": "2023-06-15"
+    },
+    {
+      "orderId": 107,
+      "customerName": "David Lee",
+      "product": "iPhone 13 Pro",
+      "quantity": 1,
+      "price": 999,
+      "status": "Completed",
+      "orderDate": "2023-06-20"
+    },
+    {
+      "orderId": 108,
+      "customerName": "Laura Martinez",
+      "product": "iPhone 13 Pro Max",
+      "quantity": 1,
+      "price": 1099,
+      "status": "Pending",
+      "orderDate": "2023-06-22"
+    },
+    {
+      "orderId": 109,
+      "customerName": "James Anderson",
+      "product": "iPhone 13",
+      "quantity": 2,
+      "price": 1598,
+      "status": "Completed",
+      "orderDate": "2023-06-25"
+    },
+    {
+      "orderId": 110,
+      "customerName": "Patricia Thomas",
+      "product": "iPhone 13 Mini",
+      "quantity": 1,
+      "price": 699,
+      "status": "Pending",
+      "orderDate": "2023-06-30"
+    }
+  ],
+  "conversations": [
+    {
+      "customerName": "John Doe",
+      "message": [
+        "Hi, I have a question about my recent order.",
+        "Is it possible to"
+      ],
+      "timestamp": "11:15 Pm"
+    },
+    {
+      "customerName": "Jane Smith",
+      "message": ["When will my iPhone 13 Pro be shipped?"],
+      "timestamp": "10:30 Pm"
+    },
+    {
+      "customerName": "John Doe",
+      "message": ["I received a notification but no tracking number."],
+      "timestamp": "12:00 Pm"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.dashboard-container {
+  display: flex;
+}
+.content-container {
+  width: calc(100% - 296px);
+}
+.main-content {
+  margin-top: 84px;
+  padding-bottom: 30px;
+}
+
+@media screen and (max-width: 530px) {
+  .main-content {
+    margin-top: 120px;
+  }
+}

@@ -1,0 +1,42 @@
+.add-product-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+  gap: 20px;
+}
+.bag-circle {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  background-color: rgba(244, 245, 250, 1);
+  border: 1px rgba(225, 226, 233, 1) solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.font9 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  margin-top: 15px;
+  margin-bottom: -5px;
+}
+.button-blue {
+  background-color: rgba(85, 112, 241, 1);
+  width: 180px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  border-radius: 12px;
+  color: white;
+  transition: all 0.3s ease;
+}
+.button-blue:hover {
+  background-color: white;
+  border: 1px rgba(85, 112, 241, 1) solid;
+  color: rgba(85, 112, 241, 1);
+  cursor: pointer;
+}

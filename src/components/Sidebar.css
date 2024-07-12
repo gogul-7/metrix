@@ -1,0 +1,80 @@
+.sidebar-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 296px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+  border-right: 1px rgba(241, 243, 249, 1) solid;
+  overflow: hidden;
+}
+.sidebar-header {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  /* width: 233px; */
+}
+.sidebar-middle {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  gap: 5px;
+}
+.sidebar-bottom {
+  align-items: center;
+  position: absolute;
+  bottom: 50px;
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.sidebar-bottom-button1 {
+  width: 232px;
+  height: 46px;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  border-radius: 16px;
+  gap: 10px;
+  background-color: rgba(94, 99, 102, 0.1);
+  transition: 0.5s;
+  overflow: hidden;
+}
+.sidebar-bottom-button2 {
+  width: 232px;
+  height: 82px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding-block: 5px;
+  padding-left: 10px;
+  border-radius: 16px;
+  background-color: rgba(255, 204, 145, 0.2);
+  transition: 0.5s;
+  overflow: hidden;
+}
+.sidebar-bottom-button1:hover {
+  background-color: rgba(94, 99, 102, 0.3);
+  cursor: pointer;
+}
+.sidebar-bottom-button2:hover {
+  background-color: rgba(255, 204, 145, 0.4);
+  cursor: pointer;
+}
+.font2 {
+  color: rgba(110, 112, 121, 1);
+  font-size: 12px;
+}
+.sidebar-logout {
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 15px;
+}
+.sidebar-logout:hover {
+  cursor: pointer;
+}

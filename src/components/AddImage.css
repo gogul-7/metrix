@@ -1,0 +1,65 @@
+.backdrop {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.468);
+  position: absolute;
+  z-index: 10000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* .add-image-container {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+} */
+.add-image-content-container {
+  width: 372px;
+  height: 302px;
+  border-radius: 12px;
+  background-color: rgba(244, 245, 250, 1);
+  border: 1px rgba(225, 226, 233, 1) solid;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  z-index: 100000;
+  position: relative;
+}
+.image-sub1 {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  transition: 0.3s;
+}
+.image-sub1:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+.font10 {
+  color: rgba(85, 112, 241, 1);
+  font-weight: 500;
+  size: 16px;
+}
+.image-sub2 {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  display: flex;
+  gap: 10px;
+}
+.image-sub3 {
+  width: 32px;
+  height: 32px;
+  border-radius: 8px;
+  background-color: rgba(255, 242, 226, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s;
+}
+.image-sub3:hover {
+  background-color: rgb(253, 235, 213);
+  cursor: pointer;
+}

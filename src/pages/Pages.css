@@ -1,0 +1,147 @@
+.dashboard-content-container {
+  display: flex;
+  align-items: center;
+  margin-top: 100px;
+  justify-content: center;
+  flex-direction: column;
+  gap: 50px;
+}
+.orders-container {
+  padding: 50px;
+  width: 30%;
+}
+.font8 {
+  color: rgba(69, 70, 78, 1);
+  font-weight: 500;
+  font-size: 16px;
+}
+.data-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 30px;
+}
+.data-sub1 {
+  width: 383px;
+  display: flex;
+  justify-content: space-between;
+  height: 61px;
+  border-bottom: 1px rgba(241, 243, 249, 1) solid;
+}
+.data-sub1-message {
+  width: 383px;
+  display: flex;
+  justify-content: space-between;
+  height: 61px;
+  border-bottom: 1px rgba(241, 243, 249, 1) solid;
+  transition: background-color 0.3s;
+}
+.data-sub2 {
+  width: 383px;
+  display: flex;
+  gap: 10px;
+}
+.data-sub3 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.data-image {
+  width: 49px;
+  height: 49px;
+  border: 1px rgba(241, 243, 249, 1) solid;
+  border-radius: 8px;
+}
+.data-image2 {
+  width: 48px;
+  height: 48px;
+  border: 1px rgba(241, 243, 249, 1) solid;
+  border-radius: 8px;
+}
+.font11 {
+  font-weight: 500;
+  font-size: 14px;
+  margin-top: 5px;
+}
+.font12 {
+  font-weight: 400;
+  font-size: 14px;
+}
+.data-button1 {
+  width: 93px;
+  height: 19px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(50, 147, 111, 0.12);
+  color: rgba(81, 156, 102, 1);
+  border-radius: 8px;
+  margin-top: 10px;
+}
+.data-button2 {
+  width: 93px;
+  height: 19px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(245, 126, 119, 0.12);
+  color: rgba(204, 95, 95, 1);
+  border-radius: 8px;
+  margin-top: 10px;
+}
+.data-new {
+  width: 40px;
+  height: 19px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  background-color: rgba(254, 245, 234, 1);
+}
+.data-num {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: rgba(255, 204, 145, 1);
+}
+.data-sub1-message:hover {
+  background-color: rgba(247, 247, 252, 1);
+  border-right: 4px rgba(85, 112, 241, 1) solid;
+  cursor: pointer;
+}
+.settings-container {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.font15 {
+  font-size: 14px;
+  font-weight: 400;
+  color: rgba(139, 141, 151, 1);
+  width: 70%;
+  text-align: center;
+}
+
+@media screen and (max-width: 1400px) {
+  .orders-container {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 800px) {
+  .orders-container {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .orders-container {
+    width: 100%;
+  }
+  .font15 {
+    width: 100%;
+  }
+}
